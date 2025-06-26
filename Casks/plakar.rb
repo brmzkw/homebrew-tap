@@ -2,7 +2,7 @@
 cask "plakar" do
   desc "Plakar is a secure backup solution for all your data sources, including filesystems, S3 buckets, Cloud resources, SFTP servers, and more."
   homepage "https://plakar.io/"
-  version "1.4.3-devel"
+  version "1.5.0-devel"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "plakar" do
 
   on_macos do
     on_intel do
-      url "https://github.com/brmzkw/plakar/releases/download/v1.4.3-devel/plakar_1.4.3-devel_darwin_amd64.tar.gz"
-      sha256 "54ce18299e159d235e13021150b32b23468c75c2aef761d2b769eb696bf4e819"
+      url "https://github.com/brmzkw/plakar/releases/download/v1.5.0-devel/plakar_1.5.0-devel_darwin_amd64.tar.gz"
+      sha256 "862a8ba1609c4d6bde753766131cbbd9b31bc50b36def0f0cbb1999630b1147a"
     end
     on_arm do
-      url "https://github.com/brmzkw/plakar/releases/download/v1.4.3-devel/plakar_1.4.3-devel_darwin_arm64.tar.gz"
-      sha256 "b7d20f4e78bffd8543b4c3624a417f197b39117d09a1b2a01d341d56eadb3085"
+      url "https://github.com/brmzkw/plakar/releases/download/v1.5.0-devel/plakar_1.5.0-devel_darwin_arm64.tar.gz"
+      sha256 "f61863372292089e1a1640c50ea20a8277d7347afdefe13f1cb91ec0496ded2a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/brmzkw/plakar/releases/download/v1.4.3-devel/plakar_1.4.3-devel_linux_amd64.tar.gz"
-      sha256 "7596297161940e21caff698b389b396fbbed83202610c83f65a0201f09cd9cba"
+      url "https://github.com/brmzkw/plakar/releases/download/v1.5.0-devel/plakar_1.5.0-devel_linux_amd64.tar.gz"
+      sha256 "9178b20924313c99b2bceaea660f05c452d9f6f047d26b9f5b0513761ec956a1"
     end
     on_arm do
-      url "https://github.com/brmzkw/plakar/releases/download/v1.4.3-devel/plakar_1.4.3-devel_linux_arm64.tar.gz"
-      sha256 "df7c99e86e8c12957b6a536bb6d948993edeec93ec35830147ac3c004217f9cf"
+      url "https://github.com/brmzkw/plakar/releases/download/v1.5.0-devel/plakar_1.5.0-devel_linux_arm64.tar.gz"
+      sha256 "9e22120e0a98d682659f66a690fb227641b8aeb95ff5d04c17d1a6d710ff1949"
     end
   end
 
