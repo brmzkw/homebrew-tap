@@ -2,7 +2,7 @@
 cask "plakar" do
   desc "Plakar is a secure backup solution for all your data sources, including filesystems, S3 buckets, Cloud resources, SFTP servers, and more."
   homepage "https://plakar.io/"
-  version "1.8.0-dev"
+  version "1.8.0-dev3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "plakar" do
 
   on_macos do
     on_intel do
-      url "https://github.com/brmzkw/plakar/releases/download/v1.8.0-dev/plakar_1.8.0-dev_darwin_amd64.tar.gz"
-      sha256 "a8ae41bc6bea8c74b42152060177b8aa3dec0c3065ce52a814a2e0a33fa60a9a"
+      url "https://github.com/brmzkw/plakar/releases/download/v1.8.0-dev3/plakar_1.8.0-dev3_darwin_amd64.tar.gz"
+      sha256 "1a7fe803292a2c08e6c2355d46b162a4eefd5ce0efa4964dbf7c2a2688e1aeb2"
     end
     on_arm do
-      url "https://github.com/brmzkw/plakar/releases/download/v1.8.0-dev/plakar_1.8.0-dev_darwin_arm64.tar.gz"
-      sha256 "2e104da0a6bf623d819fdb65c06f9215d8e5f0fdb024a3891a06b512f7358dd9"
+      url "https://github.com/brmzkw/plakar/releases/download/v1.8.0-dev3/plakar_1.8.0-dev3_darwin_arm64.tar.gz"
+      sha256 "2906d3a448d4c5150ac140b37b0c59cfaa56c61fe556530eb90cd07a27789cf5"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/brmzkw/plakar/releases/download/v1.8.0-dev/plakar_1.8.0-dev_linux_amd64.tar.gz"
-      sha256 "90af171923880fe0fbda6a1d66ae0f62f3787a8e5496e4f73d1788bbd216249e"
+      url "https://github.com/brmzkw/plakar/releases/download/v1.8.0-dev3/plakar_1.8.0-dev3_linux_amd64.tar.gz"
+      sha256 "967f5241c744c0258af03e005f097072106034a429b14801dea9d5cef3018b92"
     end
     on_arm do
-      url "https://github.com/brmzkw/plakar/releases/download/v1.8.0-dev/plakar_1.8.0-dev_linux_arm64.tar.gz"
-      sha256 "cd3d11ecd1b447d4725093bd88b2e954a2c76c41491911e6a6baf7de71313ef1"
+      url "https://github.com/brmzkw/plakar/releases/download/v1.8.0-dev3/plakar_1.8.0-dev3_linux_arm64.tar.gz"
+      sha256 "010a2b532aee5c4ca66edea9759656d313387aa435d9ec4fdcdc172838f07860"
     end
   end
 
