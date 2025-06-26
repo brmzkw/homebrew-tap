@@ -2,7 +2,7 @@
 cask "plakar" do
   desc "Plakar is a secure backup solution for all your data sources, including filesystems, S3 buckets, Cloud resources, SFTP servers, and more."
   homepage "https://plakar.io/"
-  version "9.0.0-devel.34342ffa.202212211333"
+  version "1.0.3-devel"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "plakar" do
 
   on_macos do
     on_intel do
-      url "https://github.com/brmzkw/plakar/releases/download/v9.0.0-devel.34342ffa.202212211333/plakar_9.0.0-devel.34342ffa.202212211333_darwin_amd64.tar.gz"
-      sha256 "68e39b9e4eb6a000a4b920577cd530d2b21cd9d688ffd83867ea288114f77393"
+      url "https://github.com/brmzkw/plakar/releases/download/v1.0.3-devel/plakar_1.0.3-devel_darwin_amd64.tar.gz"
+      sha256 "f68caf7a6580af174e1a32d61faab7bf4c12e5c82a78ef483342278299f560cf"
     end
     on_arm do
-      url "https://github.com/brmzkw/plakar/releases/download/v9.0.0-devel.34342ffa.202212211333/plakar_9.0.0-devel.34342ffa.202212211333_darwin_arm64.tar.gz"
-      sha256 "d6042fb70ff4612df0b4fb9f4d1c7ec3897cf740957078d599e8113316af0aac"
+      url "https://github.com/brmzkw/plakar/releases/download/v1.0.3-devel/plakar_1.0.3-devel_darwin_arm64.tar.gz"
+      sha256 "f4b734de2f74539eba397f100e20bab393eeb5625ca25bb1c4a4fc1d4a60b885"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/brmzkw/plakar/releases/download/v9.0.0-devel.34342ffa.202212211333/plakar_9.0.0-devel.34342ffa.202212211333_linux_amd64.tar.gz"
-      sha256 "958f1bb85008cd392a8c3a9d5b817fffc75d7b21ec4779b56bf6b211879a7f20"
+      url "https://github.com/brmzkw/plakar/releases/download/v1.0.3-devel/plakar_1.0.3-devel_linux_amd64.tar.gz"
+      sha256 "1a9b19f0bfdff12c0d4f303aa343df2876dbd7700f8aae62a438aceaa1e8a190"
     end
     on_arm do
-      url "https://github.com/brmzkw/plakar/releases/download/v9.0.0-devel.34342ffa.202212211333/plakar_9.0.0-devel.34342ffa.202212211333_linux_arm64.tar.gz"
-      sha256 "324248b2adc354b04008071d9daf2f37b851bb640666f63fdf8c8716a162595e"
+      url "https://github.com/brmzkw/plakar/releases/download/v1.0.3-devel/plakar_1.0.3-devel_linux_arm64.tar.gz"
+      sha256 "4a88b0da2d634f571fa0f753c5e6e6bde64fe166513c397f4b8e2a0abd11ed1f"
     end
   end
 
