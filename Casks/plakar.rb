@@ -2,7 +2,7 @@
 cask "plakar" do
   desc "Plakar is a secure backup solution for all your data sources, including filesystems, S3 buckets, Cloud resources, SFTP servers, and more."
   homepage "https://plakar.io/"
-  version "1.6.1-devel"
+  version "1.6.2-devel"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "plakar" do
 
   on_macos do
     on_intel do
-      url "https://github.com/brmzkw/plakar/releases/download/v1.6.1-devel/plakar_1.6.1-devel_darwin_amd64.tar.gz"
-      sha256 "0cc377dbd0b0c7d1fb9da93db68cd2db3a22580de52f1f05818780689aa58ed1"
+      url "https://github.com/brmzkw/plakar/releases/download/v1.6.2-devel/plakar_1.6.2-devel_darwin_amd64.tar.gz"
+      sha256 "44a3ae68898c11561dff2218771d8e2b37d2e43cab03dd9f6066f115adba32f4"
     end
     on_arm do
-      url "https://github.com/brmzkw/plakar/releases/download/v1.6.1-devel/plakar_1.6.1-devel_darwin_arm64.tar.gz"
-      sha256 "4d8fdb4a9cfe4e8fc8a7817fda36cec50a7eb66a749af9242c69908f133d5e9d"
+      url "https://github.com/brmzkw/plakar/releases/download/v1.6.2-devel/plakar_1.6.2-devel_darwin_arm64.tar.gz"
+      sha256 "7997fae3ea2e7a86fc2f4dd375ae44091dcb231686a7f6846baa4a971d759831"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/brmzkw/plakar/releases/download/v1.6.1-devel/plakar_1.6.1-devel_linux_amd64.tar.gz"
-      sha256 "7b2bead4baea7fcf60f985f7bd711cda948c23596c77b17770b128517494c408"
+      url "https://github.com/brmzkw/plakar/releases/download/v1.6.2-devel/plakar_1.6.2-devel_linux_amd64.tar.gz"
+      sha256 "fe3d3d516692754d50917f0fc957ecef7d14974b81334856c02365b95ac3a294"
     end
     on_arm do
-      url "https://github.com/brmzkw/plakar/releases/download/v1.6.1-devel/plakar_1.6.1-devel_linux_arm64.tar.gz"
-      sha256 "2934f6ca79d515b993f7ffcce6705050a19b2bfe2c331c560cf3e34dc5f68070"
+      url "https://github.com/brmzkw/plakar/releases/download/v1.6.2-devel/plakar_1.6.2-devel_linux_arm64.tar.gz"
+      sha256 "964b95aea2000ed54179374a6550dab43a98964dab78e0c5f86bd37248ff99d9"
     end
   end
 
