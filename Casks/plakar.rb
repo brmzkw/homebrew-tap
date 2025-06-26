@@ -2,7 +2,7 @@
 cask "plakar" do
   desc "Plakar is a secure backup solution for all your data sources, including filesystems, S3 buckets, Cloud resources, SFTP servers, and more."
   homepage "https://plakar.io/"
-  version "1.0.5"
+  version "1.0.6"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "plakar" do
 
   on_macos do
     on_intel do
-      url "https://github.com/brmzkw/plakar/releases/download/v1.0.5/plakar_1.0.5_darwin_amd64.tar.gz"
-      sha256 "a7e06f510530e88c69134e0e6c9dd60750b79dbee1f7fa85162f37f081dee792"
+      url "https://github.com/brmzkw/plakar/releases/download/v1.0.6/plakar_1.0.6_darwin_amd64.tar.gz"
+      sha256 "5b0aebf5b1665e5525dbcf957d8498ada9d86a5f3e87351965d71fd8740dd7c0"
     end
     on_arm do
-      url "https://github.com/brmzkw/plakar/releases/download/v1.0.5/plakar_1.0.5_darwin_arm64.tar.gz"
-      sha256 "bf97197df08e096c2700318a1ad090c25a734bdeda878abe0b4c16e0d658c794"
+      url "https://github.com/brmzkw/plakar/releases/download/v1.0.6/plakar_1.0.6_darwin_arm64.tar.gz"
+      sha256 "bc86fed72b718135147ba5cad7c0309985607685adae3ab0a3cddfe4e4190daa"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/brmzkw/plakar/releases/download/v1.0.5/plakar_1.0.5_linux_amd64.tar.gz"
-      sha256 "438cb7db273fb4813ec2421b2982cd0f09e6c45cce2b4cc8916423936e23c712"
+      url "https://github.com/brmzkw/plakar/releases/download/v1.0.6/plakar_1.0.6_linux_amd64.tar.gz"
+      sha256 "8df9ac5d231ddfc33d4f540acc4289c3d370861c2553376996be9590c42d7c7f"
     end
     on_arm do
-      url "https://github.com/brmzkw/plakar/releases/download/v1.0.5/plakar_1.0.5_linux_arm64.tar.gz"
-      sha256 "9a7d33b29070712a3b53ce384325afbdf54602b5477a3b52b59e1ddc68ccb14f"
+      url "https://github.com/brmzkw/plakar/releases/download/v1.0.6/plakar_1.0.6_linux_arm64.tar.gz"
+      sha256 "96237d8da37312570bc7b0907a43e517ba1e11865aef7ab020b1ac164d8b492a"
     end
   end
 
